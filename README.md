@@ -20,6 +20,12 @@ A HVM Portal a képzeletbeli Hungária Villamos Művek lakossági és üzleti vi
 | Adatbázis     | Microsoft SQL Express                             |
 | Android       | Vanilla - JS nyelven                              |
 
+**Fejlesztési elvek:**
+
+- Object Oriented Programming (OOP)
+- Domain Driven Design (DDD)
+- Command and Query Responsibility Segregation pattern (CQRS)
+
 ## Mappaszerkezet
 
 ```plain
