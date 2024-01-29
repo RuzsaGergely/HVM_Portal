@@ -4,7 +4,7 @@ A HVM Portal a képzeletbeli Hungária Villamos Művek lakossági és üzleti vi
 
 ## Alapadatok
 
-| Adat          | Érték                                 |
+| Kulcs         | Érték                                 |
 | --------      | -------                               |
 | Intézmény     | BMSZC Petrik Lajos                    |
 | Osztály       | 2/14. SL                              |
@@ -13,10 +13,10 @@ A HVM Portal a képzeletbeli Hungária Villamos Művek lakossági és üzleti vi
 
 ## Felhasznált technológiák
 
-| Technológia   | Érték                                             |
+| Típus         | Megnevezése                                       |
 | --------      | -------                                           |
 | Backend       | ASP.NET Web Core API (8) + Entity Framework 8     |
-| Frontend      | Angular - TypeScript nyelven - >= v17             |
+| Frontend      | Angular - TypeScript nyelven - >= v17 + PrimeNG   |
 | Adatbázis     | Microsoft SQL Express                             |
 | Android       | Vanilla - JS nyelven                              |
 
@@ -30,13 +30,13 @@ A HVM Portal a képzeletbeli Hungária Villamos Művek lakossági és üzleti vi
 
 ```plain
 .
-├── HVM_Backend/
+├── HVM-Backend/
 │   └── ASP.NET Core Web API projekt
-├── HVM_Frontend/
+├── HVM-Frontend/
 │   └── Angular TS projekt
-├── HVM_Android/
+├── HVM-Android/
 │   └── Android Gradle (Java) projekt
-├── Manual/
+├── Docs/
 │   ├── Felhasználói és adminisztrátori kézikönyv (Markdown)
 │   └── Tesztelési jegyzék (Markdown)
 └── README

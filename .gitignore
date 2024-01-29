@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/HVM-Backend/.vs/HVM-Backend
+/HVM-Backend/Application/obj
+/HVM-Backend/Domain/obj
+/HVM-Backend/HVM-Backend/bin/Debug/net8.0
+/HVM-Backend/HVM-Backend/obj
+/HVM-Backend/Infrastructure/obj
