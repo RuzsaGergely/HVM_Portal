@@ -1,0 +1,27 @@
+<div class="registration-container">
+    <div class="registration-box">
+      <h2>Regisztráció</h2>
+      <div>
+        <label>Név:</label>
+        <input type="text" name="name" [(ngModel)]="name" required>
+      </div>
+      <div>
+        <label>Jelszó:</label>
+        <input type="password" name="password" [(ngModel)]="password" required>
+      </div>
+      <div>
+        <label>Telefonszám:</label>
+        <input type="tel" name="phoneNumber" [(ngModel)]="phoneNumber" required>
+      </div>
+      <div>
+        <label>Cím:</label>
+        <input type="text" name="address" [(ngModel)]="address" required>
+      </div>
+      <div>
+        <label>Email cím:</label>
+        <input type="email" name="email" [(ngModel)]="email" required>
+      </div>
+      <button (click)="register()">Regisztráció</button>
+    </div>
+  </div>
+  

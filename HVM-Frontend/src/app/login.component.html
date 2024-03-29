@@ -1,0 +1,17 @@
+<div class="login-container">
+  <div class="login-box">
+    <h2>Bejelentkezés</h2>
+    <div>
+      <label>Felhasználónév:</label>
+      <input type="text" name="username" [(ngModel)]="username" required>
+    </div>
+    <div>
+      <label>Jelszó:</label>
+      <input type="password" name="password" [(ngModel)]="password" required>
+    </div>
+    <div class="button-row">
+      <button (click)="login()">Bejelentkezés</button>
+      <button routerLink="/registration">Regisztráció</button>
+    </div>
+  </div>
+</div>

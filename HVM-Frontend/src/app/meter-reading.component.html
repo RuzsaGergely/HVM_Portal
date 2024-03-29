@@ -1,0 +1,34 @@
+<div class="meter-reading-container">
+    <h2>Mérőóra állás bediktálása</h2>
+    <div>
+      <label>Mérőóra típusa:</label>
+      <select [(ngModel)]="meterType">
+        <option value="kWh">kWh</option>
+        <option value="m3">m3</option>
+      </select>
+    </div>
+    <div>
+      <label>Mérőóra:</label>
+      <select [(ngModel)]="meter">
+        <option value="Gázóra">Gázóra</option>
+        <option value="Villanyóra">Villanyóra</option>
+        <option value="Vízóra">Vízóra</option>
+      </select>
+    </div>
+    <div>
+      <label>Mérőóra állása:</label>
+      <input type="number" step="0.001" [(ngModel)]="meterReading">
+    </div>
+    <div>
+      <label>Képfeltöltés:</label>
+      <input type="file" (change)="onFileSelected($event)">
+    </div>
+    <div *ngIf="imageUrl">
+      <img [src]="imageUrl" alt="Mérőóra kép">
+    </div>
+    <div class="buttons">
+      <button (click)="clear()">Mégse</button>
+      <button (click)="confirm()">Elküld</button>
+    </div>
+  </div>
+  

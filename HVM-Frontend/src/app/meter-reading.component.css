@@ -1,0 +1,13 @@
+.meter-reading-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+  }
+  
