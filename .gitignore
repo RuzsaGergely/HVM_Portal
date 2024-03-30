@@ -8,3 +8,8 @@
 /HVM-Backend/HVM-Backend/bin/Debug/net8.0
 /HVM-Backend/HVM-Backend/obj
 /HVM-Backend/Infrastructure/obj
+/HVM-Backend/Domain/bin/Debug/net8.0
+/HVM-Backend/Application/bin/Debug/net8.0
+/HVM-Backend/Infrastructure/bin/Debug/net8.0
+/HVM-Backend/Infrastructure/Migrations
+/HVM-Backend/.vs/ProjectEvaluation

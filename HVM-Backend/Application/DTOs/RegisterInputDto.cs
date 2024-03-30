@@ -1,6 +1,12 @@
-﻿namespace Domain
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Application.DTOs
 {
-    public class User : BaseEntity
+    public class RegisterInputDto
     {
         // Keresztnév (cég esetén a képviselőé)
         public string FirstName { get; set; }
@@ -15,10 +21,6 @@
         // Adószám - ha vállalkozó
         public string? VATnumber { get; set; }
         public string Username { get; set; }
-        public string PasswordHash { get; set; }
-        public DateTime LastLogin { get; set; }
-        public ICollection<PowerMeter> PowerMeters { get; set; } = new List<PowerMeter>();
-        // Ha operátor, akkor hozzáfér az operátori dashboardhoz
-        public bool IsOperator { get; set; }
+        public string Password { get; set; }
     }
 }

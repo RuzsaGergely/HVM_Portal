@@ -9,5 +9,6 @@ namespace Infrastructure
         public DbSet<User> Users { get; set; }
         public DbSet<PowerMeter> PowerMeters { get; set; }
         public DbSet<MeterReadingChange> MeterReadingChanges { get; set; }
+        public DbSet<Log> Logs { get; set; }
     }
 }
