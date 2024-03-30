@@ -18,13 +18,12 @@ A HVM Portal a képzeletbeli Hungária Villamos Művek lakossági és üzleti vi
 | Backend       | ASP.NET Web Core API (8) + Entity Framework 8     |
 | Frontend      | Angular - TypeScript nyelven - >= v17 + PrimeNG   |
 | Adatbázis     | Microsoft SQL Express                             |
-| Android       | Vanilla - JS nyelven                              |
+| Android       | Vanilla - Java nyelven                            |
 
 **Fejlesztési elvek:**
 
 - Object Oriented Programming (OOP)
-- Domain Driven Design (DDD)
-- Command and Query Responsibility Segregation pattern (CQRS)
+- ~ Domain Driven Design (DDD)
 
 ## Mappaszerkezet
 

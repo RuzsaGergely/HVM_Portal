@@ -10,5 +10,6 @@ namespace Domain
     {
         public User? User { get; set; }
         public string LogMessage { get; set; }
+        public DateTime Time { get; set; }
     }
 }

@@ -1,6 +1,7 @@
 
 using Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -42,6 +43,8 @@ namespace HVM_Backend
                      IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
                  };
              });
+
+            builder.Services.AddAuthorization();
 
             var app = builder.Build();
 
